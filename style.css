@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(234, 240, 253);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  height: 38rem;
+  width: 50rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+}
+
+.left {
+  color: #fff;
+  margin-top: 50%;
+}
+.left-heading {
+  color: #4567ac;
+  font-size: 3rem;
+}
+.left-para {
+  color: black;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+
+.right-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #fff;
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0.1px rgba(0, 0, 0, 0.1);
+}
+
+.right {
+  margin-top: 40%;
+}
+
+.same {
+  height: 2.3rem;
+  width: 15rem;
+  margin: 0 auto;
+  font-size: 0.8rem;
+  padding-left: 0.6rem;
+  border-radius: 5px;
+  outline: none;
+  border: 0.3px solid rgba(128, 128, 128, 0.301);
+}
+.btn {
+  width: 15.5rem;
+  height: 2.3rem;
+  display: block;
+  margin: 0 auto;
+  background-color: #4567ac;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.login-para {
+  font-size: 0.7rem;
+  color: #4567ac;
+  text-align: center;
+  margin-top: 0.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.new-btn {
+  width: 12rem;
+  height: 2.3rem;
+  background-color: rgb(74, 163, 74);
+  color: #fff;
+  border: none;
+  outline: none;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.hr {
+  width: 82%;
+  margin-left: 1.9rem;
+  opacity: 0.4;
+}
